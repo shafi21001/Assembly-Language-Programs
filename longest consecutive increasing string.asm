@@ -1,8 +1,8 @@
 .model small
 .stack 100h
 .data
-inputmsg db 'enter a string of capital letters: $'
-outputmsg db 0dh,0ah,'the longest consecutive increasing string is: $'
+inputmsg db 'Enter a string of capital letters: $'
+outputmsg db 0dh,0ah,'The longest consecutive increasing string is: $'
 .code
 
 main proc
