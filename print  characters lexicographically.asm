@@ -1,19 +1,11 @@
 .model small
 .stack 100h   
 .data
-a db 'Nusrat Jahan Bindu $'
 b db 10,13,'$'
 .code
 main proc  
     mov ax,@data
     mov ds,ax
-    
-    mov ah,9
-    lea dx,a
-    int 21h
-    
-    lea dx,b
-    int 21h 
     
     mov ah,2
     mov dl,'?'
