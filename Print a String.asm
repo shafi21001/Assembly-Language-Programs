@@ -1,7 +1,7 @@
 .model small
 .stack 100h
 .data
-msg db "Hello This is Nusrat Jahan Bindu  $"
+msg db "Hello World!$"
 .code
 main proc
     mov ax,@data
