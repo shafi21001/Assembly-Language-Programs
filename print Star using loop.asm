@@ -1,19 +1,12 @@
 .model small
-
 .stack 100h
-
 .data
-  
-a db 'Star concept $' 
-
+a db 'Star Pattern $' 
 b db 10,13, '$'
 .code 
-
 main proc
     mov ax,@data   
     mov ds,ax
-    
-   
     
     mov ah,9
     lea dx,a
