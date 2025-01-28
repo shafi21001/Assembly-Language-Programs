@@ -1,19 +1,11 @@
 .model small
 .stack 100h
 .data 
-   
    a db "Enter number a :$"
-     
    b db 10,13, "Enter number b :$"
-   
    c db 10,13, "a is greater $"
-   
-   d db 10,13, "b is greater $"
-   
-   
-     
+   d db 10,13, "b is greater $"  
   .code  
-  
   main proc  
     
     mov ax,@data
