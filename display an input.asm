@@ -1,19 +1,13 @@
-
 .model small
 .stack  100h
 .code
- main proc 
-    
-    mov ah,2 
-    
+ main proc   
+    mov ah,2  
      mov dl,'?'
-     
      int 21h
-     
-     
+          
      mov ah,1
-     int 21h
-     
+     int 21h     
      
      mov  bl,al
      int 21h
