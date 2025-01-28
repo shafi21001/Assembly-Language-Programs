@@ -1,11 +1,7 @@
 .model small
 .stack 100h
 .code  
-  
-  main proc  
-    
-   
-    
+  main proc   
     mov ah,1
     int 21h
     mov bl,al 
@@ -13,8 +9,7 @@
     mov bh,al
     int 21h
     mov cl,al
-    
-    
+
    cmp bl,bh
    jge a
    
